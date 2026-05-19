@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "./views/Home.vue";
 import Thank from "./views/Thank.vue";
+import TestWexgoFlow from "./views/TestWexgoFlow.vue";
 
 const routes = [
     {
@@ -11,6 +12,11 @@ const routes = [
     {
         path: '/thank',
         component: Thank  
+    },
+
+    {
+        path: '/test-wexgo-flow',
+        component: TestWexgoFlow  
     }
 ]
 
